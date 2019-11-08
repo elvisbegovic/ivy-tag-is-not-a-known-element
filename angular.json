@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ivy-tag-is-not-a-known-element": {
@@ -102,6 +102,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ivy-tag-is-not-a-known-element"
+    }
+  },
+  "defaultProject": "ivy-tag-is-not-a-known-element",
+  "cli": {
+    "analytics": false
+  }
 }
